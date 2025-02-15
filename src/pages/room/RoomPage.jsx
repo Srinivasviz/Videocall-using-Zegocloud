@@ -9,7 +9,7 @@ const RoomPage = () => {
   useEffect(() => {
     const appId = 1944009137;
     const serverSecret = "44ba81a763acb40e36a2ae0a552d88e6";
-    const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(appId, serverSecret, roomId, Date.now().toString(), "Suraj Raut");
+    const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(appId, serverSecret, roomId, Date.now().toString(), "Your name");
 
     const zc = ZegoUIKitPrebuilt.create(kitToken);
 
